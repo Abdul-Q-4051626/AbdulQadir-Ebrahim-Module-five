@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "Boundless Charging",
+    "slug": "module",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/head-icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash2.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/head-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.BoundlessCharging.BoundlessCharging",
+      "config": {
+        "googleMaps": {"apiKey": "AIzaSyBWmO_i3sbhLUMbhjb7LIwc19GakdNcveY"}
+      }
+    
+    },
+    "web": {
+      "favicon": "./assets/head-icon.png"
+    }
+  }
+}
